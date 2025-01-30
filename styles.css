@@ -1,0 +1,142 @@
+/* Ini File CSS */
+
+main {
+    display: flex;
+    gap: 32px;
+    padding: 32px;
+}
+
+footer {
+    text-align: center;
+}
+
+.main-header {
+    text-align: center;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+form {
+    background-color: #e1e1e1;
+    padding: 32px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+
+button {
+    border: none;
+    padding: 9px;
+    color: #e1e1e1;
+    border-radius: 10px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-cadetblue {
+    background-color: cadetblue;
+}
+
+.result-section {
+    padding: 16px;
+    text-align: center;
+    background-color: #e1e1e1;
+}
+
+#result-bmi {
+    font-size: xxx-large;
+    font-family: math;
+}
+
+.btn-hitung {
+    background-color: #0F7173; /* Hijau */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background-color: #dc3545; /* Merah */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Efek hover */
+.btn-hitung:hover {
+    background-color: #118183;
+}
+
+.btn-reset:hover {
+    background-color: #c82333;
+}
+
+.result-section {
+    padding: 20px;
+    text-align: center;
+    background-color: #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#result-bmi {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#result-category {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#result-explanation {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #666;
+}
+
+.gender-group div {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.gender-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+.app-download {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-badges {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+/* CSS ini akan di terapkan ketika lebar layar lebih kecil dari 480px */
+@media only screen and (max-width: 480px) {
+    main {
+        flex-direction: column;
+    }
+}
